@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class GitHubActionsFirstTestApplicationTests {
 
+	// TODO: Delete this comment, it is just for testing gradle cache.
     @Test
     void Given_2Numbers_When_AddingThem_Then_TheAddResultIsReturned() {
         var x = 5;
