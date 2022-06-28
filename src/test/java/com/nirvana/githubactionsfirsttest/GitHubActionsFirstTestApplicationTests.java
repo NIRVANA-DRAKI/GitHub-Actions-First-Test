@@ -17,15 +17,4 @@ class GitHubActionsFirstTestApplicationTests {
                 .isEqualTo(x + y);
     }
 
-	@Test
-	void InvalidTest() {
-		var x = 5;
-		var y = 5;
-		var result = x + y;
-
-		assertThat(result)
-				.as("The sum of 2 numbers should be equal to itself")
-				.isEqualTo(x + 1);
-	}
-
 }
